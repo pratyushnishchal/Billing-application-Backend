@@ -9,7 +9,7 @@ public class CorsConfig implements WebMvcConfigurer {
 	@Override
 	public void addCorsMappings(CorsRegistry registry) {
 		registry.addMapping("/**") // Allow all paths
-				.allowedOrigins("https://invoicify-billingapplication.vercel.app") // Allow your React app's origin
+				.allowedOrigins("https://invoicify-billingapplication-k1d338582.vercel.app") // Allow your React app's origin
 				.allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS") // Allow HTTP methods
 				.allowedHeaders("*"); // Allow all headers
 	}
